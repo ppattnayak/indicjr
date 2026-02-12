@@ -1,0 +1,6 @@
+__MACOSX/
+.ipynb_checkpoints/
+results/
+outputs/
+*.log
+.DS_Store
