@@ -1,0 +1,6 @@
+seed: 42
+benign_per_lang: 300
+harmful_per_lang: 150
+max_tokens: 256
+temperature: 0.0
+tracks: [json, freeform]

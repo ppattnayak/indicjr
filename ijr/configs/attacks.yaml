@@ -1,0 +1,6 @@
+families: [instruction, translate, roleplay, format]
+modes: [same, cross]
+severity: [light, medium, heavy]
+orthography:
+  enable_for: [translate, format]
+  variants: [native, romanized, mixed]

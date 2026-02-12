@@ -1,0 +1,14 @@
+default: {}
+local:
+  llama3_8b:
+    runner: vllm
+    model_path: meta-llama/Meta-Llama-3-8B-Instruct
+    dtype: bfloat16
+    max_tokens: 256
+    temperature: 0.0
+api:
+  openai_gpt4o_mini:
+    runner: openai
+    model: gpt-4o-mini
+    max_tokens: 256
+    temperature: 0.0
