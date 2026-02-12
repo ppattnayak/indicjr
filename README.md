@@ -62,6 +62,12 @@ Each line is a JSON object (one prompt). Common fields include:
 - `e6_fragmentation.py` : tokenization/fragmentation analysis
 - `gen_*` : prompt generation utilities (attacks, orthography, cross-transfer, freeform)
 
+## Install
+
+`git clone https://github.com/ppattnayak/indicjr.git
+cd indicjr
+pip install -r requirements.txt
+`
 ## Running an evaluation (high level)
 
 1) Generate model outputs (your inference runner)
@@ -75,6 +81,7 @@ Each line is a JSON object (one prompt). Common fields include:
 3) Compute metrics & tables
 - JSON: `scripts/compute_metrics.py`
 - FREE: `scripts/compute_metrics_free.py`
+
 
 ## Reproducibility tips
 - Keep a fixed decoding configuration (temperature, max tokens, seed if applicable)
