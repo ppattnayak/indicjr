@@ -4,3 +4,5 @@ results/
 outputs/
 *.log
 .DS_Store
+*.pyc
+__pycache__/
