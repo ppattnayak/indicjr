@@ -89,7 +89,9 @@ pip install -r requirements.txt
 - Do not post-process model outputs except basic decoding
 
 ## Citation
-`@misc{pattnayak2026indicjrjudgefreebenchmarkjailbreak,
+
+```bibtex
+@misc{pattnayak2026indicjrjudgefreebenchmarkjailbreak,
       title={IndicJR: A Judge-Free Benchmark of Jailbreak Robustness in South Asian Languages}, 
       author={Priyaranjan Pattnayak and Sanchari Chowdhuri},
       year={2026},
@@ -97,7 +99,8 @@ pip install -r requirements.txt
       archivePrefix={arXiv},
       primaryClass={cs.AI},
       url={https://arxiv.org/abs/2602.16832}, 
-}`
+}
+```
 
 ## License
 (Add your chosen license here; e.g., Apache-2.0 / CC-BY-4.0 / custom research-only)
